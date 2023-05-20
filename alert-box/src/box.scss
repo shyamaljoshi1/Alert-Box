@@ -1,0 +1,61 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.modal-wrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #eef1f1;
+}
+
+.modal-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 50px 70px;
+    box-shadow: 2px 2px 5px 0px #0000006f;
+}
+
+h2{
+    padding: 2px 0 ;
+}
+
+p{
+    padding: 2px 0 30px 0;
+}
+
+
+
+.confim-btn{
+    margin: 10px;
+    padding: 5px 12px;
+    font-size: medium;
+    text-decoration: none;
+    color: #eef1f1;
+    border: none;
+    background-color: #065e56;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 0;
+
+}
+
+.cancel-btn{
+    margin: 10px;
+    padding: 5px 12px;
+    font-size: medium;
+    text-decoration: none;
+    color: #065e56;
+    border: none;
+    background-color:#eef1f1;
+    border-radius: 4px;
+    cursor: pointer;
+}
